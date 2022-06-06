@@ -3,7 +3,8 @@
 ## Descrição do projeto
 Esse é um projeto solicitado no terceiro período na cadeira de Desenvolvimento de Sistemas web I no Intituto Federal de Pernambuco (IFPE), que visa fazeruma aplicação web para um determinado minimundo.
 
-Requerimentos do Sistema:
+## Requerimentos do Sistema:
+
 • Elabore no mínimo 8 (oito) páginas web com HMTL, CSS e JS do minimundo (domínio de negócio) escolhido:
 
 o 8 (oito) Páginas Web com HTML 5, CSS 3 e JS, sem ser o header ou o footer;
