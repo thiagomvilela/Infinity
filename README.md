@@ -1,4 +1,4 @@
-<h1 align="center">DSW I - Project</h1>
+<h1 align="center">Infinity♾️</h1>
 
 ## Descrição do projeto
 Esse é um projeto solicitado no terceiro período na cadeira de Desenvolvimento de Sistemas web I no Intituto Federal de Pernambuco (IFPE), que visa fazer uma aplicação web para um determinado minimundo.
