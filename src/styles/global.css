@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--light-primary);
+  color: var(--dark-primary);
+  font-family: 'Quicksand', sans-serif;
+}
