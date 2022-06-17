@@ -2,14 +2,14 @@ import React from 'react'
 import Footer from '../../components/footer'
 import Header from '../../components/header'
 
-const Customers = () => {
+const Client = () => {
   return(
     <>
       <Header />
-      <p>Esta é a página Customers</p>
+      <p>Esta é a página Client</p>
       <Footer />
     </>
   )
 }
 
-export default Customers
+export default Client

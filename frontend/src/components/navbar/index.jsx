@@ -1,20 +1,36 @@
 import React from 'react'
-import './styles.css'
+import { Container, IconLink } from './styles'
 
 import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <nav className='nav-container'>
-      <Link to='/'>Home</Link>
-      <Link to='/contact'>Contact</Link>
-      <Link to='/about'>About</Link>
-      <Link to='/technologies'>Technologies</Link>
-      <Link to='/scheduling'>Scheduling</Link>
-      <Link to='/methodology'>Methodology</Link>
-      <Link to='/form'>Form</Link>
-      <Link to='/customers'>Customers</Link>
-    </nav>
+    <Container>
+      <IconLink>
+        <Link to='/'>Home</Link>
+      </IconLink>
+      <IconLink>
+        <Link to='/contact'>Contact</Link>
+      </IconLink>
+      <IconLink>
+        <Link to='/about'>About</Link>
+      </IconLink>
+      <IconLink>
+        <Link to='/technologies'>Technologies</Link>
+      </IconLink>
+      <IconLink>
+        <Link to='/scheduling'>Scheduling</Link>
+      </IconLink>
+      <IconLink>
+        <Link to='/methodology'>Methodology</Link>
+      </IconLink>
+      <IconLink>
+        <Link to='/form'>Form</Link>
+      </IconLink>
+      <IconLink>
+        <Link to='/client'>Clients</Link>
+      </IconLink>
+    </Container>
   )
 }
 

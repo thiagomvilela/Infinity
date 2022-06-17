@@ -1,7 +1,0 @@
-.nav-container {
-  background-color: var(--blue);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-}

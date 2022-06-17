@@ -1,8 +1,3 @@
 .header-container{
-  background-color: var(--light-secondary);
-  color: var(--light-primary);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 8px;
+
 }

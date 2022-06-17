@@ -2,10 +2,11 @@ import { Route, Routes } from 'react-router-dom'
 
 import About from './pages/about'
 import Contact from './pages/contact'
-import Customers from './pages/customers'
+import Client from './pages/client'
 import Home from './pages/home'
 import Form from './pages/form'
 import Login from './pages/login'
+import NotFound from './pages/notFound'
 import Methodology from './pages/methodology'
 import Scheduling from './pages/scheduling'
 import Technologies from './pages/technologies'
@@ -21,7 +22,8 @@ const MyRoutes = () => {
       <Route path='/login' element={<Login />} />
       <Route path='/methodology' element={<Methodology />} />
       <Route path='/form' element={<Form />} />
-      <Route path='/customers' element={<Customers />} />
+      <Route path='/client' element={<Client />} />
+      <Route path='/*' element={<NotFound />} />
     </Routes>
   )
 }

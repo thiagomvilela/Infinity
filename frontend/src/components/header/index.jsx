@@ -1,13 +1,16 @@
 import React from 'react'
+import { Container } from './styles'
+
 import Navbar from '../navbar'
-import './styles.css'
+import ToogleTheme from '../toogleTheme'
 
 const Header = () => {
   return (
-    <header className='header-container'>
+    <Container>
       <h2>Logo</h2>
       <Navbar />
-    </header>
+      <ToogleTheme />
+    </Container>
   )
 }
 
