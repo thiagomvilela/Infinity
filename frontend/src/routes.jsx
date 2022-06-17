@@ -5,6 +5,7 @@ import Contact from './pages/contact'
 import Customers from './pages/customers'
 import Home from './pages/home'
 import Form from './pages/form'
+import Login from './pages/login'
 import Methodology from './pages/methodology'
 import Scheduling from './pages/scheduling'
 import Technologies from './pages/technologies'
@@ -17,6 +18,7 @@ const MyRoutes = () => {
       <Route path='/contact' element={<Contact />} />
       <Route path='/technologies' element={<Technologies />} />
       <Route path='/scheduling' element={<Scheduling />} />
+      <Route path='/login' element={<Login />} />
       <Route path='/methodology' element={<Methodology />} />
       <Route path='/form' element={<Form />} />
       <Route path='/customers' element={<Customers />} />
