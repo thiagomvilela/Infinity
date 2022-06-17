@@ -8,3 +8,14 @@ export const Container = styled.header`
   align-items: center;
   padding: 8px;
 `
+
+export const Title = styled.h2`
+  color: ${props => props.theme.colors.text};
+`
+
+export const RightBox = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+`

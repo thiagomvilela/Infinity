@@ -1,15 +1,17 @@
 import React from 'react'
-import { Container } from './styles'
+import { Container, RightBox, Title } from './styles'
 
 import Navbar from '../navbar'
-import ToogleTheme from '../toogleTheme'
+import ToggleTheme from '../toggleTheme'
 
 const Header = () => {
   return (
     <Container>
-      <h2>Logo</h2>
-      <Navbar />
-      <ToogleTheme />
+      <Title>Logo</Title>
+      <RightBox>
+        <Navbar />
+        <ToggleTheme />
+      </RightBox>
     </Container>
   )
 }
