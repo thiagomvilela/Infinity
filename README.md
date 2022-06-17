@@ -44,3 +44,4 @@ As seguintes ferramentas foram usadas para a construção do projeto:
 - [HTML](https://www.w3schools.com/)
 - [CSS](https://www.w3schools.com/)
 - [JavaScript](https://www.w3schools.com/)
+- [Node.JS](https://nodejs.org/en/)
