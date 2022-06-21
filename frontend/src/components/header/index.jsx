@@ -2,6 +2,7 @@ import React from 'react'
 import { Container, RightBox, Title } from './styles'
 
 import Navbar from '../navbar'
+import ToggleNavbar from '../toggleNavbar'
 import ToggleTheme from '../toggleTheme'
 
 const Header = () => {
@@ -11,6 +12,7 @@ const Header = () => {
       <RightBox>
         <Navbar />
         <ToggleTheme />
+        <ToggleNavbar />
       </RightBox>
     </Container>
   )
