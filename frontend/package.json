@@ -1,14 +1,12 @@
 {
   "name": "infinity",
-  "homepage": "https://thiagomvilela.github.io/Infinity",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite build && vite preview --port 3080",
+    "deploy": "vite build && git add dist -f && git commit -m \"update deploy\" && git subtree push --prefix dist origin gh-pages"
   },
   "dependencies": {
     "aos": "^2.3.4",
@@ -21,7 +19,6 @@
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "@vitejs/plugin-react": "^1.3.0",
-    "gh-pages": "^4.0.0",
     "vite": "^2.9.9"
   }
 }

@@ -3,32 +3,34 @@ import { Container, IconLink } from './styles'
 
 import { Link } from 'react-router-dom'
 
+const PATH = 'Infinity' // vite.config.ts
+
 const Navbar = () => {
   return (
     <Container>
       <IconLink>
-        <Link to='/'>Home</Link>
+        <Link to={PATH + '/'}>Home</Link>
       </IconLink>
       <IconLink>
-        <Link to='/contact'>Contact</Link>
+        <Link to={PATH + '/contact'}>Contact</Link>
       </IconLink>
       <IconLink>
-        <Link to='/about'>About</Link>
+        <Link to={PATH + '/about'}>About</Link>
       </IconLink>
       <IconLink>
-        <Link to='/technologies'>Technologies</Link>
+        <Link to={PATH + '/technologies'}>Technologies</Link>
       </IconLink>
       <IconLink>
-        <Link to='/scheduling'>Scheduling</Link>
+        <Link to={PATH + '/scheduling'}>Scheduling</Link>
       </IconLink>
       <IconLink>
-        <Link to='/methodology'>Methodology</Link>
+        <Link to={PATH + '/methodology'}>Methodology</Link>
       </IconLink>
       <IconLink>
-        <Link to='/form'>Form</Link>
+        <Link to={PATH + '/form'}>Form</Link>
       </IconLink>
       <IconLink>
-        <Link to='/client'>Clients</Link>
+        <Link to={PATH + '/client'}>Clients</Link>
       </IconLink>
     </Container>
   )

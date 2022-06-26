@@ -11,19 +11,21 @@ import Methodology from './pages/methodology'
 import Scheduling from './pages/scheduling'
 import Technologies from './pages/technologies'
 
+const PATH = 'Infinity' // vite.config.ts
+
 const MyRoutes = () => {
   return (
     <Routes>
-      <Route path='/' element={<Home />} />
-      <Route path='/about' element={<About />} />
-      <Route path='/contact' element={<Contact />} />
-      <Route path='/technologies' element={<Technologies />} />
-      <Route path='/scheduling' element={<Scheduling />} />
-      <Route path='/login' element={<Login />} />
-      <Route path='/methodology' element={<Methodology />} />
-      <Route path='/form' element={<Form />} />
-      <Route path='/client' element={<Client />} />
-      <Route path='/*' element={<NotFound />} />
+      <Route path={PATH + '/'} element={<Home />} />
+      <Route path={PATH + '/about'} element={<About />} />
+      <Route path={PATH + '/contact'} element={<Contact />} />
+      <Route path={PATH + '/technologies'} element={<Technologies />} />
+      <Route path={PATH + '/scheduling'} element={<Scheduling />} />
+      <Route path={PATH + '/login'} element={<Login />} />
+      <Route path={PATH + '/methodology'} element={<Methodology />} />
+      <Route path={PATH + '/form'} element={<Form />} />
+      <Route path={PATH + '/client'} element={<Client />} />
+      <Route path={PATH + '/*'} element={<NotFound />} />
     </Routes>
   )
 }
