@@ -11,4 +11,3 @@ export const Image = styled.img`
 export const Text = styled.p`
   color: ${props => props.theme.colors.background};
 `
-
