@@ -95,7 +95,7 @@ Error generating stack: `+o.message+`
   align-items: center;
   padding: 8px;
 `,Wv=We.h2`
-  color: ${e=>e.theme.colors.text};
+  color: ${e=>e.theme.colors.primary};
 `,Qv=We.div`
   display: flex;
   justify-content: center;
