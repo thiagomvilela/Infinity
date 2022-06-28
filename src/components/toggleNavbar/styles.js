@@ -1,13 +1,15 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  background-color: blue;
-`
-
-export const Text = styled.p`
-  text-align: center;
-  color: ${props => props.highlighted
-    ? props.theme.colors.text
-    : props.theme.colors.background
-  };
+  background-color: transparent;
+  color: ${props => props.theme.colors.text};
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3em;
+  border: none;
+  @media screen and (min-width: 828px) {
+    display: none;
+  }
 `

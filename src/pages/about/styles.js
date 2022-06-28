@@ -8,7 +8,7 @@ export const Container = styled.div`
   background-image: linear-gradient(to left, #161B22, #00A6ED 70%);
   color: ${props => props.theme.colors.text};
 
-  @media screen and (max-width: 728px){
+  @media screen and (max-width: 828px){
     flex-direction:column;
   }
 `
@@ -20,7 +20,7 @@ export const Image = styled.img`
 export const LeftBox = styled.div`
   width: 50%;
 
-  @media screen and (max-width: 728px){
+  @media screen and (max-width: 828px){
     width: 100%;
   }
 `

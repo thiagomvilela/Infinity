@@ -17,5 +17,5 @@ export const RightBox = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 12px;
+  gap: 16px;
 `

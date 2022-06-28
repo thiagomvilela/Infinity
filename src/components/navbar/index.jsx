@@ -2,12 +2,20 @@ import React from 'react'
 import { Container, IconLink } from './styles'
 
 import { Link } from 'react-router-dom'
+import { useNavbar } from '../../contexts/NavbarContext'
 
 const PATH = 'Infinity' // vite.config.ts
 
 const Navbar = () => {
+  const { isOpen, setIsOpen } = useNavbar()
+
+  const closeSidebar = () => {
+    setIsOpen(false)
+    window.scrollTo(0, 0)
+  }
+
   return (
-    <Container>
+    <Container isOpen={isOpen} onClick={() => closeSidebar()}>
       <IconLink>
         <Link to={PATH + '/'}>Home</Link>
       </IconLink>

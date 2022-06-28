@@ -1,12 +1,18 @@
 import React from 'react'
+import { useNavbar } from '../../contexts/NavbarContext'
 
-import { Container, Text } from './styles'
+import { Container } from './styles'
 
 const ToggleNavbar = () => {
+  const { isOpen, setIsOpen } = useNavbar()
+
+  const handleClick = () => {
+    setIsOpen(!isOpen)
+  }
+
   return (
-    <Container>
-      <Text highlighted={true}>Olá mundo!!!</Text>
-      <Text>Hello World!!!</Text>
+    <Container onClick={() => handleClick()}>
+      <i className="fas fa-ellipsis-v"></i>
     </Container>
   )
 }
