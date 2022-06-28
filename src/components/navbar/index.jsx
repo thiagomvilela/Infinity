@@ -4,7 +4,7 @@ import { Container, IconLink } from './styles'
 import { Link } from 'react-router-dom'
 import { useNavbar } from '../../contexts/NavbarContext'
 
-const PATH = 'Infinity' // vite.config.ts
+const PATH = '/Infinity' // vite.config.ts
 
 const Navbar = () => {
   const { isOpen, setIsOpen } = useNavbar()
