@@ -4,8 +4,9 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   gap: 50px;
-  padding: 5%;
-  background-image: linear-gradient(to left, #161B22, #00A6ED 70%);
+  padding: 2%;
+  padding-bottom: 20%;
+  background-image: linear-gradient(to left, ${props => props.theme.colors.background}, #00A6ED 70%);
   color: ${props => props.theme.colors.text};
 
   @media screen and (max-width: 828px){
@@ -14,7 +15,9 @@ export const Container = styled.div`
 `
 
 export const Image = styled.img`
-  padding-left: 5%;
+  padding-top: 2%;
+  padding-left: 2%;
+  height: 30%;
 `
 
 export const LeftBox = styled.div`

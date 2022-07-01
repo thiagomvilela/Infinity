@@ -40,6 +40,9 @@ const Navbar = () => {
       <IconLink>
         <Link to={PATH + '/client'}>Clients</Link>
       </IconLink>
+      <IconLink>
+        <Link to={PATH + '/login'}>Sign In</Link>
+      </IconLink>
     </Container>
   )
 }
