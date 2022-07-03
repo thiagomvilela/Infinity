@@ -130,7 +130,7 @@ background-color: ${e=>e.theme.colors.background};
   a {
     color: ${e=>e.theme.colors.text};
   }
-`;function tp(e,t){const[r,n]=E.exports.useState(()=>{const o=localStorage.getItem(e);return o?JSON.parse(o):t});return E.exports.useEffect(()=>{localStorage.setItem(e,JSON.stringify(r))},[r]),[r,n]}const rp={isOpen:!1,setIsOpen:()=>{}},np=E.exports.createContext(rp),op=()=>E.exports.useContext(np),Bh=({children:e})=>{const[t,r]=tp("isOpen",rp.isOpen);return h(np.Provider,{value:{isOpen:t,setIsOpen:r},children:e})},Et="/Infinity",Uh=()=>{const{isOpen:e,setIsOpen:t}=op(),r=()=>{t(!1),window.scrollTo(0,0)};return K(Dh,{isOpen:e,onClick:()=>r(),children:[h(zt,{children:h(Ct,{to:Et+"/",children:"Home"})}),h(zt,{children:h(Ct,{to:Et+"/contact",children:"Contact"})}),h(zt,{children:h(Ct,{to:Et+"/about",children:"About"})}),h(zt,{children:h(Ct,{to:Et+"/technologies",children:"Technologies"})}),h(zt,{children:h(Ct,{to:Et+"/scheduling",children:"Scheduling"})}),h(zt,{children:h(Ct,{to:Et+"/methodology",children:"Methodology"})}),h(zt,{children:h(Ct,{to:Et+"/form",children:"Form"})}),h(zt,{children:h(Ct,{to:Et+"/client",children:"Clients"})}),h(zt,{children:h(Ct,{to:Et+"/login",children:"Sign In"})}),h(zt,{children:h(Ct,{to:Et+"/signup",children:"Sign Up"})})]})},Hh=ie.div`
+`;function tp(e,t){const[r,n]=E.exports.useState(()=>{const o=localStorage.getItem(e);return o?JSON.parse(o):t});return E.exports.useEffect(()=>{localStorage.setItem(e,JSON.stringify(r))},[r]),[r,n]}const rp={isOpen:!1,setIsOpen:()=>{}},np=E.exports.createContext(rp),op=()=>E.exports.useContext(np),Bh=({children:e})=>{const[t,r]=tp("isOpen",rp.isOpen);return h(np.Provider,{value:{isOpen:t,setIsOpen:r},children:e})},Et="/Infinity-testando-page-not-found/",Uh=()=>{const{isOpen:e,setIsOpen:t}=op(),r=()=>{t(!1),window.scrollTo(0,0)};return K(Dh,{isOpen:e,onClick:()=>r(),children:[h(zt,{children:h(Ct,{to:Et+"/",children:"Home"})}),h(zt,{children:h(Ct,{to:Et+"/contact",children:"Contact"})}),h(zt,{children:h(Ct,{to:Et+"/about",children:"About"})}),h(zt,{children:h(Ct,{to:Et+"/technologies",children:"Technologies"})}),h(zt,{children:h(Ct,{to:Et+"/scheduling",children:"Scheduling"})}),h(zt,{children:h(Ct,{to:Et+"/methodology",children:"Methodology"})}),h(zt,{children:h(Ct,{to:Et+"/form",children:"Form"})}),h(zt,{children:h(Ct,{to:Et+"/client",children:"Clients"})}),h(zt,{children:h(Ct,{to:Et+"/login",children:"Sign In"})}),h(zt,{children:h(Ct,{to:Et+"/signup",children:"Sign Up"})})]})},Hh=ie.div`
   background-color: transparent;
   color: ${e=>e.theme.colors.text};
   cursor: pointer;
@@ -159,7 +159,7 @@ background-color: ${e=>e.theme.colors.background};
   &:hover{
     transform: rotateZ(-60deg);
   }
-`,Gh=()=>{const{theme:e,setTheme:t}=sp(),r=()=>{t(e.title=="light"?Wh:ip)};return h(Yh,{onClick:()=>r(),children:(()=>e.title=="light"?h(yc,{className:"fas fa-moon"}):h(yc,{className:"fas fa-sun"}))()})},Rt=()=>K(Ah,{children:[h(Fh,{children:"Logo"}),K(Mh,{children:[h(Uh,{}),h(Gh,{}),h(Vh,{})]})]});var Kh="/Infinity/assets/astronaut-about.a1ebef3a.png";const Xh=ie.div`
+`,Gh=()=>{const{theme:e,setTheme:t}=sp(),r=()=>{t(e.title=="light"?Wh:ip)};return h(Yh,{onClick:()=>r(),children:(()=>e.title=="light"?h(yc,{className:"fas fa-moon"}):h(yc,{className:"fas fa-sun"}))()})},Rt=()=>K(Ah,{children:[h(Fh,{children:"Logo"}),K(Mh,{children:[h(Uh,{}),h(Gh,{}),h(Vh,{})]})]});var Kh="/Infinity-testando-page-not-found/assets/astronaut-about.a1ebef3a.png";const Xh=ie.div`
   display: flex;
   justify-content: center;
   gap: 50px;
@@ -193,7 +193,7 @@ background-color: ${e=>e.theme.colors.background};
   width: 200px;
 `,ab=ie.p`
   color: ${e=>e.theme.colors.background};
-`,lb=()=>K(ob,{children:[h(ab,{children:"Hi ^^"}),h(ib,{src:"https://avatars.githubusercontent.com/u/84406367?v=4",alt:""})]}),sb=()=>K(mt,{children:[h(Rt,{}),h("p",{children:"Esta \xE9 a p\xE1gina Home"}),h(lb,{}),h(jt,{})]}),db=()=>K(mt,{children:[h(Rt,{}),h("p",{children:"Esta \xE9 a p\xE1gina Form"}),h(jt,{})]});var dp="/Infinity/assets/astronaut-login.4f816e03.png";const cb=ie.div`
+`,lb=()=>K(ob,{children:[h(ab,{children:"Hi ^^"}),h(ib,{src:"https://avatars.githubusercontent.com/u/84406367?v=4",alt:""})]}),sb=()=>K(mt,{children:[h(Rt,{}),h("p",{children:"Esta \xE9 a p\xE1gina Home"}),h(lb,{}),h(jt,{})]}),db=()=>K(mt,{children:[h(Rt,{}),h("p",{children:"Esta \xE9 a p\xE1gina Form"}),h(jt,{})]});var dp="/Infinity-testando-page-not-found/assets/astronaut-login.4f816e03.png";const cb=ie.div`
   padding-left: 30%;
   padding-right: 30%;
   padding-bottom: 5%;
@@ -227,7 +227,7 @@ background-color: ${e=>e.theme.colors.background};
   width: 60%;
   display: block;
   margin: 0 auto;
-`,Wb=()=>K(mt,{children:[h(Rt,{}),K(Hb,{children:[h(Vb,{src:dp}),K(he,{children:[K(he.Group,{className:"mb-3",children:[h(he.Label,{children:"Email"}),h(he.Control,{type:"email"}),h(he.Text,{className:"text-muted"})]}),K(he.Group,{className:"mb-3",children:[h(he.Label,{children:"Senha"}),h(he.Control,{type:"password"})]}),h(he.Group,{className:"mb-3",children:h(he.Check,{type:"checkbox",label:"Lembre-se de mim"})}),h(bi,{variant:"primary",type:"submit",children:"Cadastrar"}),"  ",h(bi,{variant:"primary",type:"reset",children:"Limpar"})]})]}),h(jt,{})]});var Qb="/Infinity/assets/infinity-dark-mode.85f5534a.gif",Yb="/Infinity/assets/infinity-light-mode.85243de5.gif";const wc=ie.img`
+`,Wb=()=>K(mt,{children:[h(Rt,{}),K(Hb,{children:[h(Vb,{src:dp}),K(he,{children:[K(he.Group,{className:"mb-3",children:[h(he.Label,{children:"Email"}),h(he.Control,{type:"email"}),h(he.Text,{className:"text-muted"})]}),K(he.Group,{className:"mb-3",children:[h(he.Label,{children:"Senha"}),h(he.Control,{type:"password"})]}),h(he.Group,{className:"mb-3",children:h(he.Check,{type:"checkbox",label:"Lembre-se de mim"})}),h(bi,{variant:"primary",type:"submit",children:"Cadastrar"}),"  ",h(bi,{variant:"primary",type:"reset",children:"Limpar"})]})]}),h(jt,{})]});var Qb="/Infinity-testando-page-not-found/assets/infinity-dark-mode.85f5534a.gif",Yb="/Infinity-testando-page-not-found/assets/infinity-light-mode.85243de5.gif";const wc=ie.img`
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -238,7 +238,7 @@ background-color: ${e=>e.theme.colors.background};
 `,Kb=ie.h3`
   text-align: center;
   font-size: 1.2em;
-`,Xb=()=>{const{theme:e}=sp();return K(mt,{children:[(()=>e.title=="light"?h(wc,{src:Yb}):h(wc,{src:Qb}))(),h(Gb,{children:"Error 404"}),h(Kb,{children:"P\xE1gina n\xE3o encontrada"})]})},Zb=()=>K(mt,{children:[h(Rt,{}),h("p",{children:"Esta \xE9 a p\xE1gina Methodology"}),h(jt,{})]}),Jb=()=>K(mt,{children:[h(Rt,{}),h("p",{children:"Esta \xE9 a p\xE1gina Scheduling"}),h(jt,{})]}),qb=()=>K(mt,{children:[h(Rt,{}),h("p",{children:"Esta \xE9 a p\xE1gina Technologies"}),h(jt,{})]}),gt="Infinity",e1=()=>K(z0,{children:[h(ot,{path:gt+"/",element:h(sb,{})}),h(ot,{path:gt+"/about",element:h(tb,{})}),h(ot,{path:gt+"/contact",element:h(rb,{})}),h(ot,{path:gt+"/technologies",element:h(qb,{})}),h(ot,{path:gt+"/scheduling",element:h(Jb,{})}),h(ot,{path:gt+"/login",element:h(Ub,{})}),h(ot,{path:gt+"/signup",element:h(Wb,{})}),h(ot,{path:gt+"/methodology",element:h(Zb,{})}),h(ot,{path:gt+"/form",element:h(db,{})}),h(ot,{path:gt+"/client",element:h(nb,{})}),h(ot,{path:gt+"/*",element:h(Xb,{})})]});var t1=Ph`
+`,Xb=()=>{const{theme:e}=sp();return K(mt,{children:[(()=>e.title=="light"?h(wc,{src:Yb}):h(wc,{src:Qb}))(),h(Gb,{children:"Error 404"}),h(Kb,{children:"P\xE1gina n\xE3o encontrada"})]})},Zb=()=>K(mt,{children:[h(Rt,{}),h("p",{children:"Esta \xE9 a p\xE1gina Methodology"}),h(jt,{})]}),Jb=()=>K(mt,{children:[h(Rt,{}),h("p",{children:"Esta \xE9 a p\xE1gina Scheduling"}),h(jt,{})]}),qb=()=>K(mt,{children:[h(Rt,{}),h("p",{children:"Esta \xE9 a p\xE1gina Technologies"}),h(jt,{})]}),gt="/Infinity-testando-page-not-found/",e1=()=>K(z0,{children:[h(ot,{path:gt+"/",element:h(sb,{})}),h(ot,{path:gt+"/about",element:h(tb,{})}),h(ot,{path:gt+"/contact",element:h(rb,{})}),h(ot,{path:gt+"/technologies",element:h(qb,{})}),h(ot,{path:gt+"/scheduling",element:h(Jb,{})}),h(ot,{path:gt+"/login",element:h(Ub,{})}),h(ot,{path:gt+"/signup",element:h(Wb,{})}),h(ot,{path:gt+"/methodology",element:h(Zb,{})}),h(ot,{path:gt+"/form",element:h(db,{})}),h(ot,{path:gt+"/client",element:h(nb,{})}),h(ot,{path:gt+"/*",element:h(Xb,{})})]});var t1=Ph`
   * {
     margin: 0;
     padding: 0;
