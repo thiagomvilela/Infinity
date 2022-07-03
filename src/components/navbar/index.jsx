@@ -41,7 +41,7 @@ const Navbar = () => {
         <Link to={PATH + '/client'}>Clients</Link>
       </IconLink>
       <IconLink>
-        <Link to={PATH + '/login'}>Sign In</Link>
+        <Link to={PATH + '/login'}>Login</Link>
       </IconLink>
       <IconLink>
         <Link to={PATH + '/signUp'}>Sign Up</Link>
