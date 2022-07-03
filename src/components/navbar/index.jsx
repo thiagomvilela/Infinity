@@ -44,7 +44,7 @@ const Navbar = () => {
         <Link to={PATH + '/login'}>Sign In</Link>
       </IconLink>
       <IconLink>
-        <Link to={PATH + '/signup'}>Sign Up</Link>
+        <Link to={PATH + '/signUp'}>Sign Up</Link>
       </IconLink>
     </Container>
   )

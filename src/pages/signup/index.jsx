@@ -5,10 +5,11 @@ import Astronaut from '../../assets/astronaut-login.png'
 import { Container, Image } from './style'
 import { Form, Button } from 'react-bootstrap'
 
-const Signup = () => {
+const SignUp = () => {
   return (
     <>
       <Header />
+      <p>Está é a página SignUp (Cadastro)</p>
       <Container>
       <Image src={Astronaut} />
         <Form>
@@ -27,7 +28,8 @@ const Signup = () => {
             <Form.Check type="checkbox" label="Lembre-se de mim" />
           </Form.Group>
 
-          <Button variant="primary" type="submit">Cadastrar</Button>{'  '}
+          <Button variant="primary" type="submit">Cadastrar</Button>
+          {'  '}
           <Button variant="primary" type="reset">Limpar</Button>
 
         </Form>
@@ -38,4 +40,4 @@ const Signup = () => {
   )
 }
 
-export default Signup
+export default SignUp
