@@ -16,23 +16,15 @@ export const Container = styled.div`
 
 export const Image = styled.img`
   padding-top: 2%;
-  padding-left: 2%;
-  height: 30%;
-`
-
-export const LeftBox = styled.div`
-  width: 50%;
-
-  @media screen and (max-width: 828px){
-    width: 100%;
-  }
+  padding-left: 18%;
 `
 
 export const Title = styled.h1`
+
 `
 
 export const Text = styled.p`
   text-align: justify;
-  padding-top: 16px;
+  padding-top: 5px;
   font-size: 1.5em;
 `

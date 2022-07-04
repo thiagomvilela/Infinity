@@ -18,7 +18,7 @@ const NotFound = () => {
   return (
     <>
       {renderGif()}
-      <Title>Error 404</Title>
+      <Title>Erro 404</Title>
       <Subtitle>Página não encontrada</Subtitle>
     </>
   )
