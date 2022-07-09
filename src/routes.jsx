@@ -8,7 +8,6 @@ import Form from './pages/form'
 import Login from './pages/login'
 import SignUp from './pages/signUp'
 import NotFound from './pages/notFound'
-import Methodology from './pages/methodology'
 import Scheduling from './pages/scheduling'
 import Technologies from './pages/technologies'
 
@@ -24,7 +23,6 @@ const MyRoutes = () => {
       <Route path={PATH + '/scheduling'} element={<Scheduling />} />
       <Route path={PATH + '/login'} element={<Login />} />
       <Route path={PATH + '/signUp'} element={<SignUp />} />
-      <Route path={PATH + '/methodology'} element={<Methodology />} />
       <Route path={PATH + '/form'} element={<Form />} />
       <Route path={PATH + '/client'} element={<Client />} />
       <Route path={PATH + '/*'} element={<NotFound />} />
