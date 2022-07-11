@@ -4,7 +4,6 @@ import About from './pages/about'
 import Contact from './pages/contact'
 import Client from './pages/client'
 import Home from './pages/home'
-import Form from './pages/form'
 import Login from './pages/login'
 import SignUp from './pages/signUp'
 import NotFound from './pages/notFound'
@@ -23,7 +22,6 @@ const MyRoutes = () => {
       <Route path={PATH + '/scheduling'} element={<Scheduling />} />
       <Route path={PATH + '/login'} element={<Login />} />
       <Route path={PATH + '/signUp'} element={<SignUp />} />
-      <Route path={PATH + '/form'} element={<Form />} />
       <Route path={PATH + '/client'} element={<Client />} />
       <Route path={PATH + '/*'} element={<NotFound />} />
     </Routes>
