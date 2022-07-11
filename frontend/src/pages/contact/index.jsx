@@ -1,12 +1,13 @@
 import React from 'react'
 import Footer from '../../components/footer'
 import Header from '../../components/header'
+import Map from '../../components/map'
 
 const Contact = () => {
   return (
     <>
       <Header />
-      <p>Esta é a página Contact</p>
+      <Map />
       <Footer />
     </>
   )
