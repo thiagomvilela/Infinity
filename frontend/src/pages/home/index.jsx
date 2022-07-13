@@ -1,6 +1,6 @@
-import React from "react";
-import Footer from "../../components/footer";
-import Header from "../../components/header";
+import React from 'react'
+import Footer from '../../components/footer'
+import Header from '../../components/header'
 import {
   ContainerRow,
   ContainerCol,
@@ -32,8 +32,8 @@ import {
   ComunityShortcuts,
   ComunityShortcut,
   ComunityIcon,
-} from "./styles";
-import Astronaut from "../../assets/astronaut-about.png";
+} from './styles'
+import Astronaut from '../../assets/astronaut-about.png'
 
 const Home = () => {
   return (
@@ -315,7 +315,7 @@ const Home = () => {
       </Comunity>
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
