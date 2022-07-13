@@ -1,6 +1,6 @@
-import React from "react";
-import Footer from "../../components/footer";
-import Header from "../../components/header";
+import React from 'react'
+import Footer from '../../components/footer'
+import Header from '../../components/header'
 import {
   ContainerRow,
   ContainerCol,
@@ -32,8 +32,8 @@ import {
   ComunityShortcuts,
   ComunityShortcut,
   ComunityIcon,
-} from "./styles";
-import Astronaut from "../../assets/astronaut-about.png";
+} from './styles'
+import Astronaut from '../../assets/astronaut-about.png'
 
 const Home = () => {
   return (
@@ -282,7 +282,7 @@ const Home = () => {
                 Nesciunt itaque voluptatum ab harum unde impedit saepe delectus
                 ipsa magni odit.
               </p>
-              <a href="#">Lorem</a>
+              <ArticleButton>Lorem</ArticleButton>
             </ComunityShortcut>
             <ComunityShortcut href="#">
               <ComunityIcon
@@ -295,7 +295,7 @@ const Home = () => {
                 Nesciunt itaque voluptatum ab harum unde impedit saepe delectus
                 ipsa magni odit.
               </p>
-              <a href="#">Lorem</a>
+              <ArticleButton>Lorem</ArticleButton>
             </ComunityShortcut>
             <ComunityShortcut href="#">
               <ComunityIcon
@@ -308,14 +308,14 @@ const Home = () => {
                 Nesciunt itaque voluptatum ab harum unde impedit saepe delectus
                 ipsa magni odit.
               </p>
-              <a href="#">Lorem</a>
+              <ArticleButton>Lorem</ArticleButton>
             </ComunityShortcut>
           </ComunityShortcuts>
         </ContainerCol>
       </Comunity>
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
