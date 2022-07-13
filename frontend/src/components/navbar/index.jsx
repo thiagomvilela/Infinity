@@ -32,9 +32,6 @@ const Navbar = () => {
         <Link to={PATH + '/scheduling'}>Scheduling</Link>
       </IconLink>
       <IconLink>
-        <Link to={PATH + '/form'}>Form</Link>
-      </IconLink>
-      <IconLink>
         <Link to={PATH + '/client'}>Clients</Link>
       </IconLink>
       <IconLink>

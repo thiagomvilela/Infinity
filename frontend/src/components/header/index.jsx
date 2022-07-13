@@ -1,6 +1,7 @@
 import React from 'react'
-import { Container, RightBox, Title } from './styles'
+import { Container, Image, LeftBox, RightBox, Title } from './styles'
 
+import Logo from '../../assets/logo.svg'
 import Navbar from '../navbar'
 import ToggleNavbar from '../toggleNavbar'
 import ToggleTheme from '../toggleTheme'
@@ -8,7 +9,10 @@ import ToggleTheme from '../toggleTheme'
 const Header = () => {
   return (
     <Container>
-      <Title>Logo</Title>
+      <LeftBox>
+        <Image src={Logo} alt="Infinity Logo" />
+        <Title>Infinity</Title>
+      </LeftBox>
       <RightBox>
         <Navbar />
         <ToggleTheme />

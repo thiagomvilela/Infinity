@@ -9,7 +9,8 @@ export default createGlobalStyle`
     text-decoration: none;
     box-sizing: border-box;
     scrollbar-width: auto;
-    scrollbar-color: ${props => (props.theme.colors.background)} ${props => props.theme.colors.background};
+    scrollbar-color: ${props => props.theme.colors.background} ${props =>
+  props.theme.colors.background};
   }
 
   *::-webkit-scrollbar {

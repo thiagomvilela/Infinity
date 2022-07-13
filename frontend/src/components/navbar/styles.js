@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.nav`
-background-color: ${props => props.theme.colors.background};
+  background-color: ${props => props.theme.colors.background};
   z-index: 10;
   position: fixed;
   top: 0;
@@ -15,7 +15,7 @@ background-color: ${props => props.theme.colors.background};
   min-width: 100vw;
   min-height: 100vh;
   overflow: hidden;
-  transition: .4s transform;
+  transition: 0.4s transform;
   transform: ${props => (props.isOpen ? 'translateX(0%)' : 'translateX(100%)')};
 
   @media screen and (min-width: 828px) {
@@ -30,5 +30,11 @@ background-color: ${props => props.theme.colors.background};
 export const IconLink = styled.div`
   a {
     color: ${props => props.theme.colors.text};
+    text-decoration: none;
+    transition: color 0.4s;
+
+    &:hover {
+      color: ${props => props.theme.colors.secondary};
+    }
   }
 `
