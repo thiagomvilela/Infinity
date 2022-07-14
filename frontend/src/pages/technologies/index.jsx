@@ -104,7 +104,7 @@ const Technologies = () => {
           <Row md={2}>
             <Col md='auto'><Image src={Post} /></Col>
             <Col>
-              <Title>Postdegree</Title>
+              <Title>PostgreSQL</Title>
               <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Text>
             </Col>
           </Row>
