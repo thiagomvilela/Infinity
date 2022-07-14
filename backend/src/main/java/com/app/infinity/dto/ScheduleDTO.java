@@ -15,14 +15,13 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 public class ScheduleDTO {
 
-  @NotNull(message = "The id must not be null or empty")
   private Long id;
 
   @NotNull(message = "The user_id must not be null or empty")
-  private User user;
+  private Long userId;
 
-  @NotNull(message = "The schedule_date must not be null or empty")
-  private LocalDateTime scheduleDate;
+  //@NotNull(message = "The schedule_date must not be null or empty")
+  //private LocalDateTime scheduleDate;
 
   @NotNull(message = "The service must not be null or empty")
   @Size(min = 2, max = 150, message = "The service must be between 2 and 150 characters")
@@ -30,8 +29,8 @@ public class ScheduleDTO {
 
   public ScheduleDTO(Schedule schedule){
     this.id = schedule.getId();
-    this.scheduleDate = schedule.getScheduleDate();
-    this.user = schedule.getUser();
+    // this.scheduleDate = schedule.getScheduleDate();
+    this.userId = schedule.getUser().getId();
     this.service = schedule.getService();
   }
 
