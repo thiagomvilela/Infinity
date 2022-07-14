@@ -23,11 +23,11 @@ public class Schedule implements Serializable {
   @JoinColumn(name = "user_id")
   private User user;
 
-  // @Column(nullable = false)
-  // private LocalDateTime currentDate = LocalDateTime.now();
+  @Column(nullable = false)
+  final private LocalDateTime currDate = LocalDateTime.now();
 
-  // @Column
-  // private LocalDateTime scheduleDate;
+  @Column(nullable = false)
+  private LocalDateTime scheduleDate;
 
   @Column(length = 150, nullable = false)
   private String service;
