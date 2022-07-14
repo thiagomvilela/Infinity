@@ -26,7 +26,7 @@ public class Schedule implements Serializable {
   @Column(nullable = false)
   final private LocalDateTime currDate = LocalDateTime.now();
 
-  @Column(nullable = false)
+  @Column(nullable = false, unique = true)
   private LocalDateTime scheduleDate;
 
   @Column(length = 150, nullable = false)

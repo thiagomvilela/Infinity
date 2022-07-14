@@ -12,7 +12,6 @@ import com.app.infinity.service.IScheduleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.sql.Date;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
@@ -37,18 +36,21 @@ public class ScheduleServiceImpl implements IScheduleService {
       throw new NotFoundException();
     }
 
-    if (scheduleDTO.getScheduleDate().compareTo(LocalDateTime.now()) > 0){
-      schedule.setScheduleDate(scheduleDTO.getScheduleDate());
-
-    } else {
+    if (scheduleDTO.getScheduleDate().compareTo(LocalDateTime.now()) < 0){
       throw new DateBeforeTheCurrentException();
     }
 
-    schedule.setService(scheduleDTO.getService());
+    try {
+      schedule.setScheduleDate(scheduleDTO.getScheduleDate());
+      schedule.setService(scheduleDTO.getService());
 
-    Schedule result = scheduleRepository.save(schedule);
+      Schedule result = scheduleRepository.save(schedule);
 
-    return new ScheduleDTO(result);
+      return new ScheduleDTO(result);
+
+    } catch (Exception err) {
+      throw new AlreadyExistsException();
+    }
   }
 
   @Override

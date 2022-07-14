@@ -36,7 +36,6 @@ public class ScheduleController {
     return service.getAll();
   }
 
-
   @ResponseStatus(HttpStatus.BAD_REQUEST)
   @ExceptionHandler(MethodArgumentNotValidException.class)
   public Map<String, String> handleValidationException(MethodArgumentNotValidException ex) {
@@ -67,7 +66,7 @@ public class ScheduleController {
   public Map<String, String> handleAlreadyExistsException() {
     Map<String, String> error = new HashMap<>();
 
-    error.put("Schedule", "Already exists");
+    error.put("ScheduleDate", "Already exists");
 
     return error;
   }
@@ -77,7 +76,7 @@ public class ScheduleController {
   public Map<String, String> handleDateBeforeTheCurrentException() {
     Map<String, String> error = new HashMap<>();
 
-    error.put("Schedule Date", "Is in the past");
+    error.put("ScheduleDate", "Is in the past");
 
     return error;
   }
