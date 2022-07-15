@@ -1,5 +1,6 @@
 package com.app.infinity.controller;
 
+import com.app.infinity.dto.ScheduleDTO;
 import com.app.infinity.dto.UserDTO;
 import com.app.infinity.exception.AlreadyExistsException;
 import com.app.infinity.exception.NotFoundException;
@@ -13,6 +14,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 @RestController
@@ -32,6 +34,11 @@ public class UserController {
       @RequestParam(name = "email", defaultValue = "empty") String email,
       @RequestParam(name = "password", defaultValue = "empty") String password) {
     return service.getByEmailAndPassword(email, password);
+  }
+
+  @GetMapping(value = "/schedule/{id}")
+  public List<ScheduleDTO> getAllScheduleById(@PathVariable Long id) {
+    return service.getAllScheduleById(id);
   }
 
   @PostMapping
