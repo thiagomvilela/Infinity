@@ -34,12 +34,6 @@ const Navbar = () => {
       <IconLink>
         <Link to={PATH + '/client'}>Clients</Link>
       </IconLink>
-      <IconLink>
-        <Link to={PATH + '/login'}>Login</Link>
-      </IconLink>
-      <IconLink>
-        <Link to={PATH + '/signUp'}>Sign Up</Link>
-      </IconLink>
     </Container>
   )
 }

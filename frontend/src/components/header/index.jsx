@@ -5,6 +5,7 @@ import Logo from '../../assets/logo.svg'
 import Navbar from '../navbar'
 import ToggleNavbar from '../toggleNavbar'
 import ToggleTheme from '../toggleTheme'
+import ToggleLogin from '../toggleLogin'
 
 const Header = () => {
   return (
@@ -16,6 +17,7 @@ const Header = () => {
       <RightBox>
         <Navbar />
         <ToggleTheme />
+        <ToggleLogin />
         <ToggleNavbar />
       </RightBox>
     </Container>

@@ -7,15 +7,18 @@ import GlobalStyles from './styles/global'
 
 import { NavbarContextProvider } from './contexts/NavbarContext'
 import { ThemeContextProvider } from './contexts/ThemeContext'
+import { AuthContextProvider } from './contexts/AuthContext'
 
 const App = () => {
   return (
     <ThemeContextProvider>
       <BrowserRouter>
         <GlobalStyles />
-        <NavbarContextProvider>
-          <Routes />
-        </NavbarContextProvider>
+        <AuthContextProvider>
+          <NavbarContextProvider>
+            <Routes />
+          </NavbarContextProvider>
+        </AuthContextProvider>
       </BrowserRouter>
     </ThemeContextProvider>
   )

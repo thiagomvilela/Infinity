@@ -3,7 +3,7 @@ import usePersistedState from '../utils/usePersistedState'
 
 const initialValue = {
   isOpen: false,
-  setIsOpen: () => { }
+  setIsOpen: () => {},
 }
 
 const NavbarContext = createContext(initialValue)
