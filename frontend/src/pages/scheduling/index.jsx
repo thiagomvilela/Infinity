@@ -1,12 +1,22 @@
 import React from 'react'
 import Footer from '../../components/footer'
 import Header from '../../components/header'
+import Schedule from '../../components/schedule'
+import { useAuth } from '../../contexts/AuthContext'
+import { Container, ScheduleInfo, Title } from './styles'
 
 const Scheduling = () => {
-  return(
+  const { user } = useAuth()
+
+  return (
     <>
       <Header />
-      <p>Esta é a página Scheduling</p>
+      <Container>
+        <ScheduleInfo>
+          <Title>Hello, {user.name}</Title>
+        </ScheduleInfo>
+        <Schedule />
+      </Container>
       <Footer />
     </>
   )

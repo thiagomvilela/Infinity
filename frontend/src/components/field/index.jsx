@@ -13,6 +13,10 @@ const Field = ({ state, setState, type, label, icon, placeholder, range }) => {
       return <Icon className="fas fa-lock"></Icon>
     } else if (icon == 'name') {
       return <Icon className="fas fa-signature"></Icon>
+    } else if (icon == 'service') {
+      return <Icon className="fas fa-concierge-bell"></Icon>
+    } else if (icon == 'schedule') {
+      return <Icon className="far fa-calendar-plus"></Icon>
     }
   }
 
