@@ -49,7 +49,7 @@ const SignUpForm = () => {
   return (
     <FormContainer onSubmit={e => handleSubmit(e)}>
       <Header>
-        <Title>Sign up and Get in</Title>
+        <Title>Cadastre-se e Entre</Title>
       </Header>
 
       <Main>
@@ -57,9 +57,9 @@ const SignUpForm = () => {
           type="text"
           state={name}
           setState={setName}
-          label="Name"
+          label="Nome"
           icon="name"
-          placeholder="Name"
+          placeholder="Nome"
           range={{ min: 2, max: 150 }}
         />
 
@@ -67,7 +67,7 @@ const SignUpForm = () => {
           type="email"
           state={email}
           setState={setEmail}
-          label="Email Address"
+          label="Endereço de Email"
           icon="email"
           placeholder="Email"
           range={{ min: 2, max: 150 }}
@@ -77,18 +77,18 @@ const SignUpForm = () => {
           type="password"
           state={password}
           setState={setPassword}
-          label="Password"
+          label="Senha"
           icon="password"
-          placeholder="Password"
+          placeholder="Senha"
           range={{ min: 2, max: 32 }}
         />
 
-        <Button>Sign Up</Button>
+        <Button>Cadastrar</Button>
       </Main>
 
       <Footer>
-        <Text>Aren't you new here?</Text>
-        <Link to={PATH + '/login'}>Login </Link>
+        <Text>Você não é novo aqui?</Text>
+        <Link to={PATH + '/login'}>Entrar</Link>
       </Footer>
     </FormContainer>
   )

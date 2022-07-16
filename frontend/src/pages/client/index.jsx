@@ -27,7 +27,7 @@ const Client = () => {
                 Aqui você conhece as empresas parceiras que já trabalham
                 conosco!
               </h1>
-              <Button className="btn-lg w-50">Junte-se à nós!</Button>
+              <Button className="btn-lg w-50">Junte-se a nós!</Button>
             </Col>
             <Col md={6}>
               <Carousel className="my-5" align="center">
@@ -60,8 +60,8 @@ const Client = () => {
           <Row align="center">
             <Col>
               <h2>
-                Gostaria de conhecer as vantagens de ser um nosso parceiro?
-                <a href="">Preencha o formulário</a> e um especialista entrará
+                Gostaria de conhecer as vantagens de ser um dos nossos parceiros?
+                <a href=""> Preencha o formulário</a> e um especialista entrará
                 em contato com você.
               </h2>
             </Col>
@@ -99,7 +99,7 @@ const Client = () => {
         <Container className="py-4">
           <Row align="center">
             <Col>
-              <h3 className="m-0 py-lg-2">Comece a trabalhar conosco</h3>
+              <h3 className="m-0 py-lg-2">Comece a trabalhar conosco!</h3>
             </Col>
             <Col sm={2} md={6}>
               <Button className="w-50 btn-lg" variant="outline-light">

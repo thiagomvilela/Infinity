@@ -28,18 +28,18 @@ const ScheduleForm = () => {
         type="datetime-local"
         state={scheduleDate}
         setState={setScheduleDate}
-        label="Date"
+        label="Data"
         icon="schedule"
-        placeholder="Schedule Date"
+        placeholder="Data de agendamento"
         range={{ min: '2022-07-15T00:00' }}
       />
       <Field
         type="text"
         state={service}
         setState={setService}
-        label="Service"
+        label="Serviço"
         icon="service"
-        placeholder="Service"
+        placeholder="Serviço"
         range={{ min: 2, max: 150 }}
       />
       <Button>Agendar</Button>

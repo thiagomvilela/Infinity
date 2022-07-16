@@ -38,7 +38,7 @@ const LoginForm = () => {
   return (
     <FormContainer onSubmit={e => handleSubmit(e)}>
       <Header>
-        <Title>Log In to your account</Title>
+        <Title>Entre em sua conta</Title>
       </Header>
 
       <Main>
@@ -46,7 +46,7 @@ const LoginForm = () => {
           type="email"
           state={email}
           setState={setEmail}
-          label="Email Address"
+          label="Endereço de Email"
           icon="email"
           placeholder="Email"
           range={{ min: 2, max: 150 }}
@@ -56,18 +56,18 @@ const LoginForm = () => {
           type="password"
           state={password}
           setState={setPassword}
-          label="Password"
+          label="Senha"
           icon="password"
-          placeholder="Password"
+          placeholder="Senha"
           range={{ min: 2, max: 32 }}
         />
 
-        <Button>Log In</Button>
+        <Button>Entrar</Button>
       </Main>
 
       <Footer>
-        <Text>Are you new?</Text>
-        <Link to={PATH + '/signup'}>Sign Up</Link>
+        <Text>Você é novo aqui?</Text>
+        <Link to={PATH + '/signup'}>Cadastre-se</Link>
       </Footer>
     </FormContainer>
   )

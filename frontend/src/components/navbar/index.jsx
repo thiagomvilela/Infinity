@@ -20,19 +20,19 @@ const Navbar = () => {
         <Link to={PATH + '/'}>Home</Link>
       </IconLink>
       <IconLink>
-        <Link to={PATH + '/contact'}>Contact</Link>
+        <Link to={PATH + '/contact'}>Contatos</Link>
       </IconLink>
       <IconLink>
-        <Link to={PATH + '/about'}>About</Link>
+        <Link to={PATH + '/about'}>Sobre</Link>
       </IconLink>
       <IconLink>
-        <Link to={PATH + '/technologies'}>Technologies</Link>
+        <Link to={PATH + '/technologies'}>Tecnologias</Link>
       </IconLink>
       <IconLink>
-        <Link to={PATH + '/scheduling'}>Scheduling</Link>
+        <Link to={PATH + '/scheduling'}>Agendamento</Link>
       </IconLink>
       <IconLink>
-        <Link to={PATH + '/client'}>Clients</Link>
+        <Link to={PATH + '/client'}>Clientes</Link>
       </IconLink>
     </Container>
   )
