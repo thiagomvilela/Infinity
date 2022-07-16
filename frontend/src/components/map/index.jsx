@@ -1,6 +1,5 @@
 import React from 'react'
 import qrcode from '../../assets/qrcode.png'
-import googlemaps1 from '../../assets/googlemaps1.png'
 import { Image, Title, Text, Div, Div2} from './styles'
 import { Row, Col, Container } from 'react-bootstrap'
 
