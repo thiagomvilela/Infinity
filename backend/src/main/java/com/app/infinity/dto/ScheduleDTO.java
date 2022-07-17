@@ -1,7 +1,6 @@
 package com.app.infinity.dto;
 
 import com.app.infinity.entity.Schedule;
-import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -10,7 +9,6 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Positive;
 import javax.validation.constraints.Size;
 import java.time.LocalDateTime;
-import java.util.Date;
 
 @Data
 @NoArgsConstructor
@@ -24,7 +22,6 @@ public class ScheduleDTO {
   private Long userId;
 
   @NotNull(message = "The scheduleDate must not be null or empty")
-  @JsonFormat(pattern="yyyy-MM-dd HH:mm:ss")
   private LocalDateTime scheduleDate;
 
   @NotNull(message = "The service must not be null or empty")

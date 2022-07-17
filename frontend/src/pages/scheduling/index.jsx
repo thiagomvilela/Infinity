@@ -13,7 +13,7 @@ const Scheduling = () => {
       <Header />
       <Container>
         <ScheduleInfo>
-          <Title>Hello, {user.name}</Title>
+          <Title>Olá, {user.name}</Title>
         </ScheduleInfo>
         <Schedule />
       </Container>
