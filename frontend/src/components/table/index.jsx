@@ -9,11 +9,12 @@ import { useSchedule } from '../../contexts/ScheduleContext'
 
 const Table = () => {
   const { user } = useAuth()
-  const { isSchedulesUpdated } = useSchedule()
+  const { isSchedulesUpdated, setIsSchedulesUpdated } = useSchedule()
   const [data, setData] = useState([])
 
   const getSchedulesData = async () => {
     const response = await getAllScheduleByUserId(user.id)
+    setIsSchedulesUpdated(true)
     setData(response.data)
   }
 

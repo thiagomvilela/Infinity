@@ -1,8 +1,6 @@
 import styled from 'styled-components'
 
 export const Container = styled.table`
-  background-color: ${props =>
-    props.theme.title == 'light' ? '#00000010' : '#ffffff10'};
   border: 2px solid ${props => props.theme.colors.primary};
   width: 100%;
 `
@@ -13,13 +11,22 @@ export const BodyRow = styled.tbody``
 
 export const Title = styled.th`
   padding: 8px;
-  padding-right: 32px;
+  font-size: 0.8em;
 
   border-bottom: 2px solid ${props => props.theme.colors.primary};
+
+  @media screen and (min-width: 828px) {
+    font-size: 1em;
+  }
 `
 
 export const Column = styled.td`
   padding: 8px;
+  font-size: 0.8em;
+
+  @media screen and (min-width: 828px) {
+    font-size: 0.9em;
+  }
 `
 
 export const Row = styled.tr``
