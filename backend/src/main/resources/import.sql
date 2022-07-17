@@ -1,3 +1,5 @@
+CREATE VIEW Schedules_View AS SELECT u.name, s.schedule_date, s.service FROM tb_user as u INNER JOIN tb_schedule as s ON u.id = s.user_id;
+
 INSERT INTO tb_user(name, email, password) VALUES ('Abigail', 'aby@gmail.com', 'aby123');
 INSERT INTO tb_user(name, email, password) VALUES ('Arthur', 'arthur@gmail.com', '123');
 INSERT INTO tb_user(name, email, password) VALUES ('Nathanael', 'nate@gmail.com', 'nate123');
