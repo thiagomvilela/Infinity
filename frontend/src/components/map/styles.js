@@ -28,3 +28,16 @@ export const Div2 = styled.div`
 export const Container = styled.div`
 
 `
+
+export const Iframe = styled.iframe`
+
+width: 600px;
+height: 450px;
+
+
+@media screen and (max-width: 828px) {
+
+width: 200px;
+height: 266px;
+}
+`

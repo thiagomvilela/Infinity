@@ -1,6 +1,6 @@
 import React from 'react'
 import qrcode from '../../assets/qrcode.png'
-import { Image, Title, Text, Div, Div2} from './styles'
+import { Image, Title, Text, Div, Div2, Iframe} from './styles'
 import { Row, Col, Container } from 'react-bootstrap'
 
 const Map = () => {
@@ -51,14 +51,12 @@ const Map = () => {
 
     <Div2>
           <Row md={2}>
-            <Col md='auto'><iframe
+            <Col md='auto'><Iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.515056446582!2d-34.861024148546555!3d-7.94560588132668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab3dbf4a9cd5f1%3A0x45bf1641ad29a799!2sIFPE-%20Intituto%20Federal%20De%20Pernambuco%20%2C%20Paulista!5e0!3m2!1spt-BR!2sbr!4v1650408729027!5m2!1spt-BR!2sbr"
-        width="600"
-        height="450"
         allowFullScreen=""
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
-      ></iframe></Col>
+      ></Iframe></Col>
             <Col>
               <Title>Endereço</Title>
               <Text><b>Instituto Federal de Pernambuco <i>(Campus Paulista)</i></b>
