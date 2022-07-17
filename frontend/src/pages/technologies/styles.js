@@ -17,9 +17,9 @@ export const Text = styled.p`
 `
 export const Div = styled.div`
   background-image: linear-gradient(to left, ${props => props.theme.colors.background} 50%);
-  padding-left: 7%;
+  padding-left: 3%;
 `
 export const Div2 = styled.div`
   background-image: linear-gradient(to left, ${props => props.theme.colors.background}, #00A6ED, #00A6ED, ${props => props.theme.colors.background});
-  padding-left: 7%;
+  padding-left: 3%;
 `
