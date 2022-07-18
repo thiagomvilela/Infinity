@@ -4,6 +4,7 @@ import { useAuth } from '../../contexts/AuthContext'
 import { useSchedule } from '../../contexts/ScheduleContext'
 import { createSchedule } from '../../services/api'
 import Field from '../field'
+import UploadField from '../uploadField'
 import { Button, FormContainer } from './styles'
 
 const ScheduleForm = () => {
@@ -46,6 +47,7 @@ const ScheduleForm = () => {
         placeholder="Serviço"
         range={{ min: 2, max: 150 }}
       />
+      <UploadField />
       <Button>Agendar</Button>
     </FormContainer>
   )
