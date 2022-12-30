@@ -15,15 +15,6 @@ This is a project requested in the 2nd unit of the discipline Web Systems Develo
 - Create at least 8 CSS classes. The CSS must be in a separate file;
 - Build at least 8 JS functions. The JS must be in a separate file;
 
-> Database II - Requirements for evaluation of the 2nd unit:
-
-- Integrity;
-- Index structure;
-- Query Optimization (Vision);
-- Concurrency Control;
-- Recovery After Failures;
-- Database Security.
-
 > Required HTML elements that must be present somewhere in the project:
 - Registration form;
       • With JS validation for: e-mail, cpf, cnpj and others.
@@ -39,6 +30,15 @@ This is a project requested in the 2nd unit of the discipline Web Systems Develo
 - iframe;
 - Div;
 - Google Maps;
+
+> Database II - Requirements for evaluation of the 2nd unit:
+
+- Integrity;
+- Index structure;
+- Query Optimization (Vision);
+- Concurrency Control;
+- Recovery After Failures;
+- Database Security.
 
 ### 🛠 Technologies
 
