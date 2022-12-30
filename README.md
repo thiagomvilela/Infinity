@@ -1,7 +1,8 @@
 <h1 align="center">Infinity♾️</h1>
 
 ## Project description
-This is a project requested in the 2nd unit in the subject of Web Systems Development I at the Federal Institute of Pernambuco (IFPE), which aims to make a web application for a certain mini world.
+
+This is a project requested in the 2nd unit of the discipline Web Systems Development I and Database II at the Federal Institute of Pernambuco (IFPE), which aims to make a web application for a certain mini world.
 
 ## System Requirements:
 
@@ -13,6 +14,15 @@ This is a project requested in the 2nd unit in the subject of Web Systems Develo
 - The 8 web pages must have the header and footer incorporated into them;
 - Create at least 8 CSS classes. The CSS must be in a separate file;
 - Build at least 8 JS functions. The JS must be in a separate file;
+
+> Database II - Requirements for evaluation of the 2nd unit:
+
+- Integrity;
+- Index structure;
+- Query Optimization (Vision);
+- Concurrency Control;
+- Recovery After Failures;
+- Database Security.
 
 > Required HTML elements that must be present somewhere in the project:
 - Registration form;
@@ -38,3 +48,5 @@ The following tools were used to build the project:
 - [CSS](https://www.w3schools.com/)
 - [JavaScript](https://www.w3schools.com/)
 - [Node.JS](https://nodejs.org/en/)
+- [PostgreSQL](https://www.jetbrains.com/pt-br/datagrip/)
+- [pgAdmin](https://www.pgadmin.org/)
