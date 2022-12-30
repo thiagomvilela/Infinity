@@ -30,9 +30,9 @@ This is a project requested in the 2nd unit in the subject of Web Systems Develo
 - Div;
 - Google Maps;
 
-### 🛠 Tecnologias
+### 🛠 Technologies
 
-As seguintes ferramentas foram usadas para a construção do projeto:
+The following tools were used to build the project:
 
 - [HTML](https://www.w3schools.com/)
 - [CSS](https://www.w3schools.com/)
