@@ -35,10 +35,10 @@ This is a project requested in the 2nd unit of the discipline Web Systems Develo
 
 - Integrity;
 - Index structure;
-- Query Optimization (Vision);
-- Concurrency Control;
-- Recovery After Failures;
-- Database Security.
+- Query optimization (Vision);
+- Concurrency control;
+- Recovery after failures;
+- Database security.
 
 ### 🛠 Technologies
 
