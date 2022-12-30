@@ -1,41 +1,34 @@
 <h1 align="center">Infinity♾️</h1>
 
-## Descrição do projeto
-Esse é um projeto solicitado no terceiro período na cadeira de Desenvolvimento de Sistemas web I no Instituto Federal de Pernambuco (IFPE), que visa fazer uma aplicação web para um determinado mini mundo.
+## Project description
+This is a project requested in the 2nd unit in the subject of Web Systems Development I at the Federal Institute of Pernambuco (IFPE), which aims to make a web application for a certain mini world.
 
 ## Requerimentos do Sistema:
 
-• Elabore no mínimo 8 (oito) páginas web com HTML, CSS e JS do mini mundo (domínio de negócio) escolhido:
+> Create at least 8 (eight) web pages with HTML, CSS and JS from the chosen mini world (business domain):
+- 8 (eight) Web pages with HTML 5, CSS 3 and JS, not including the header or footer;
+- Pages must be responsive up to a screen limit of 360 x 640;
+- Create a page for the header;
+- Create a page for the footer;
+- The 8 web pages must have the header and footer incorporated into them;
+- Create at least 8 CSS classes. The CSS must be in a separate file;
+- Build at least 8 JS functions. The JS must be in a separate file;
 
-- 8 (oito) Páginas Web com HTML 5, CSS 3 e JS, sem ser o header ou o footer;
-- As páginas devem ser responsivas até um limite de tela de 360 x 640;
-- Elabore uma página para o header;
-- Elabore uma página para o footer;
-- As 8 páginas web devem ter incorporadas nelas o header e o footer;
-https://pt.stackoverflow.com/questions/215177/importar-header-e-footer-em-todas-as-p%C3%A1ginas
-
-- Crie no mínimo 8 classes CSS. O CSS deve estar em um arquivo à parte;
-- Elabore no mínimo 8 funções JS. O JS deve estar em um arquivo à parte;
-
-• Elementos obrigatórios de HTML que devem estar presentes em alguma parte do projeto:
-  - Formulário de cadastro;
-     • Com validação JS para: e-mail, cpf, cnpj e outros...
-
-     • Com máscara JS para: senha, campo apenas de número, telefone, cep, cpf e outros...
-- Galeria de Imagens (Slide);
-- Input de arquivo;
+> Required HTML elements that must be present somewhere in the project:
+- Registration form;
+      • With JS validation for: e-mail, cpf, cnpj and others.
+      • With JS mask for: password, number field only, telephone, zip code, cpf and others...
+- Image Gallery (Slide);
+- File input;
 - Menu;
-- Ícones;
+- Icons;
 - Links;
 - Favicon;
-- Tabela;
-- Lista;
-- Iframe;
+- Table;
+- List;
+- iframe;
 - Div;
-- Maps do Google;
-
-• Não pode pegar um tema HTML/CSS/JS pronto.
-• Pode usar algum framework CSS ou JS, mas tem que justificar o uso. Não irei considerar as classes CSS e funções JS do framework como entrega.
+- Google Maps;
 
 ### 🛠 Tecnologias
 
