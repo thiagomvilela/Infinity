@@ -3,7 +3,7 @@
 ## Project description
 This is a project requested in the 2nd unit in the subject of Web Systems Development I at the Federal Institute of Pernambuco (IFPE), which aims to make a web application for a certain mini world.
 
-## Requerimentos do Sistema:
+## System Requirements:
 
 > Create at least 8 (eight) web pages with HTML, CSS and JS from the chosen mini world (business domain):
 - 8 (eight) Web pages with HTML 5, CSS 3 and JS, not including the header or footer;
